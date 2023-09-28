@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "poppins";
+}
+
+body {
+  background: #4682a9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  background: #f6f4eb;
+  width: 90%;
+  max-width: 600px;
+  margin: 50px auto;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+
+.app h1 {
+  font-size: 25px;
+  font-weight: 500;
+  border-bottom: 1px solid #bebebe;
+  padding: 10px 0;
+}
+
+.quiz {
+  padding: 20px 0;
+  border-bottom: 1px solid #bebebe;
+}
+
+.quiz h2 {
+  font-size: 23px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  margin: 10px 0;
+  background: #f3f9fd;
+  border: 1px solid #bebebe;
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.fa-regular {
+  font-size: 20px;
+}
+
+.btn:hover:not([disabled]) {
+  border: 1px solid #919191;
+}
+
+.btn:disabled {
+  cursor: no-drop;
+}
+
+.correct {
+  background: #d2edda;
+  color: #5b9168;
+}
+
+.incorrect {
+  background: #f7d8d8;
+  color: #8a6568;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto 0;
+  font-weight: 500;
+}
+
+.next {
+  font-size: 15px;
+  font-weight: 500;
+  width: 35%;
+  border: 0;
+  outline: 0;
+  background: #91c8e4;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  display: block;
+  transition: 0.3s;
+}
+
+.next:hover:not([disabled]) {
+  background: #97d1ee;
+}
